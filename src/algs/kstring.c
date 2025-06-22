@@ -2,7 +2,7 @@
 // string.c
 
 
-#include "string.h"
+#include "kstring.h"
 
 void
 kstrcpy(char* dest, const char* src)
@@ -48,5 +48,4 @@ kstrlen(const char* str)
 int
 kstrstr(char* str1, char* str2)
 {
-
 }

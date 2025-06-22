@@ -22,11 +22,12 @@ typedef uint32_t ptr_t;
 
 
 #define nullptr ((void*)0)
+#define NULL ((void*)0)
 
 typedef enum
 {
-    false = 0,
-    true  = 1
+    true  = 1,
+    false = 0
 } bool;
 
 

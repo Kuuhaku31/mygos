@@ -4,6 +4,6 @@
 
 #ifndef ENDIAN_H
 #define ENDIAN_H
-#include <typedefs.h>
+#include "types.h"
 
-#endif //ENDIAN_H
+#endif // ENDIAN_H

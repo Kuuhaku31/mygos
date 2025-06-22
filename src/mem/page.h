@@ -4,7 +4,7 @@
 
 #ifndef PAGE_H
 #define PAGE_H
-#include <typedefs.h>
+#include "types.h"
 
 #include "list.h"
 #define PTE_V  (1 << 0) // 有效位

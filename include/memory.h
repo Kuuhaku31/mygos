@@ -1,7 +1,8 @@
 
 // memory.h
 
-#pragma once
+#ifndef __MEMORY_H__
+#define __MEMORY_H__
 
 #include "types.h"
 
@@ -68,3 +69,6 @@ void* page_alloc(int npages); // 分配一个内存块，由连续的物理页�
 void  page_free(void* p);     // 释放一个内存块，回收连续的物理页
 
 void print_memory_info();     // 打印内存信息，包括堆起始地址、大小、保留页数量等
+
+
+#endif /* __MEMORY_H__ */

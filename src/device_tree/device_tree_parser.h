@@ -4,7 +4,7 @@
 
 #ifndef DEVICE_TREE_PARSER_H
 #define DEVICE_TREE_PARSER_H
-#include "typedefs.h"
+#include "types.h"
 struct fdt_header {
 	uint32_t magic;          // 魔数（0xd00dfeed）
 	uint32_t totalsize;      // DTB 总大小
